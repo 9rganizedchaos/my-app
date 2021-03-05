@@ -32,14 +32,14 @@ function WritingContainer() {
           <p className="header_china_title">寫作</p>
           <div>
             <h1>Articles & Essays</h1>
-            <div class="header__photo"></div>
+            <div className="header__photo"></div>
           </div>
         </header>
-        <section class="about">
+        <section className="about">
           <h2>Graduation Thesis</h2>
-          <div class="about__columns">
-            <div class="about__column">
-              <div class="img__wrapper">
+          <div className="about__columns">
+            <div className="about__column">
+              <div className="img__wrapper">
                 <a
                   href="https://brunch.co.kr/@tumeo201/11"
                   target="_blank"
@@ -49,6 +49,8 @@ function WritingContainer() {
                 </a>
               </div>
               <span>
+                ▲ 유학동양학과 졸업논문 소수자 인권을 통한 양주사상 해석/2020
+                <br />
                 인권과 개인의 자유는 현대사회를 구성하는 중요한 가치이다.
                 공동체와 사회, 사람 사이의 관계를 중심으로 하는 동아시아철학은
                 개인에 대한 존중을 살피기 어렵다는 비판에 직면해있다. 개인의
@@ -61,41 +63,41 @@ function WritingContainer() {
           </div>
         </section>
 
-        <section class="about1">
+        <section className="about1">
           <h2>Essays</h2>
-          <div class="about1__columns">
-            <div class="about1__column">
-              <div class="img__wrapper">
+          <div className="about1__columns">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/sxKeXmM.jpg" alt="image1" />
               </div>
               <span>-</span>
             </div>
-            <div class="about1__column">
-              <div class="img__wrapper">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/NWbkRTn.jpg" alt="image1" />
               </div>
               <span>-</span>
             </div>
-            <div class="about1__column">
-              <div class="img__wrapper">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/b8qTWSq.jpg" alt="image1" />
               </div>
               <span>-</span>
             </div>
-            <div class="about1__column">
-              <div class="img__wrapper">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/QAyCb8o.jpg" alt="image1" />
               </div>
               <span>-</span>
             </div>
-            <div class="about1__column">
-              <div class="img__wrapper">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/xtxVLLW.jpg" alt="image1" />
               </div>
               <span>-</span>
             </div>
-            <div class="about1__column">
-              <div class="img__wrapper">
+            <div className="about1__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/Ro6z9sh.jpg" alt="image1" />
               </div>
               <span>-</span>
@@ -103,8 +105,8 @@ function WritingContainer() {
           </div>
         </section>
 
-        <section class="contact">
-          <Link to="/" class="btn">
+        <section className="contact">
+          <Link to="/" className="btn">
             Home
           </Link>
         </section>

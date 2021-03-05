@@ -19,13 +19,13 @@ function Home() {
             <br />
             <br />▼
           </h1>
-          <div class="header__photo"></div>
+          <div className="header__photo"></div>
         </header>
-        <section class="about">
+        <section className="about">
           <h2>Art Media</h2>
-          <div class="about__columns">
-            <div class="about__column">
-              <div class="img__wrapper">
+          <div className="about__columns">
+            <div className="about__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/rZsTJFW.png" alt="image1" />
               </div>
               <span>
@@ -34,8 +34,8 @@ function Home() {
                 상영
               </span>
             </div>
-            <div class="about__column">
-              <div class="img__wrapper">
+            <div className="about__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/XBQUgFF.png" alt="image1" />
               </div>
               <span>
@@ -45,8 +45,8 @@ function Home() {
                 2019 무용학과 졸업작품발표회 작품 "쓸쓸" 공연
               </span>
             </div>
-            <div class="about__column">
-              <div class="img__wrapper">
+            <div className="about__column">
+              <div className="img__wrapper">
                 <img src="https://i.imgur.com/t1CRpvm.png" alt="image1" />
               </div>
               <span>
@@ -57,12 +57,12 @@ function Home() {
             </div>
           </div>
         </section>
-        <section class="about1">
+        <section className="about1">
           <h2>Languages</h2>
-          <div class="about1__columns">
-            <div class="about1__column">
-              <div class="img__wrapper">
-                <div class="location__address">
+          <div className="about1__columns">
+            <div className="about1__column">
+              <div className="img__wrapper">
+                <div className="location__address">
                   <h3>Foreign Languages</h3>
                 </div>
               </div>
@@ -74,14 +74,14 @@ function Home() {
               </span>
             </div>
 
-            <div class="about1__column">
+            <div className="about1__column">
               <a
                 href="https://velog.io/@9rganizedchaos"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div class="img__wrapper">
-                  <div class="location__address">
+                <div className="img__wrapper">
+                  <div className="location__address">
                     <h3>Programming Languages</h3>
                   </div>
                 </div>
@@ -93,9 +93,9 @@ function Home() {
             </div>
           </div>
         </section>
-        <section class="contact">
+        <section className="contact">
           <h4>Check the portfolios!</h4>
-          <Link to="/video" class="btn">
+          <Link to="/video" className="btn">
             Click here
           </Link>
         </section>

@@ -50,10 +50,10 @@ class PerformanceContainer extends React.Component {
               <h1>
                 My Performances <br />
               </h1>
-              <div class="header__photo"></div>
+              <div className="header__photo"></div>
             </div>
           </header>
-          <section class="about">
+          <section className="about">
             <h2>Modern Dance</h2>
             <p align="middle">
               <iframe
@@ -64,9 +64,9 @@ class PerformanceContainer extends React.Component {
                 title="video"
               ></iframe>
             </p>
-            <div class="about__columns">
-              <div class="about__column">
-                <div class="img__wrapper">
+            <div className="about__columns">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     src="https://i.imgur.com/VIT0UZf.png"
                     alt="hd45hxQbIhc"
@@ -82,8 +82,8 @@ class PerformanceContainer extends React.Component {
                   조명을 활용해 무대에서 영상 및 연극 연출을 시도.
                 </span>
               </div>
-              <div class="about__column">
-                <div class="img__wrapper">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     alt="1JGvVgJRuHM"
                     src="https://i.imgur.com/XBQUgFF.png"
@@ -101,8 +101,8 @@ class PerformanceContainer extends React.Component {
                   적극적으로 작품에 녹여낸 로이풀러의 특징을 반영해 제작.
                 </span>
               </div>
-              <div class="about__column">
-                <div class="img__wrapper">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     alt="SudrPEnpANk"
                     src="https://i.imgur.com/Bqvdjw5.png"
@@ -122,11 +122,11 @@ class PerformanceContainer extends React.Component {
             </div>
           </section>
 
-          <section class="about1">
+          <section className="about1">
             <h2>Dance Critic</h2>
-            <div class="about1__columns">
-              <div class="about1__column">
-                <div class="img__wrapper">
+            <div className="about1__columns">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <a
                     href="https://brunch.co.kr/@tumeo201/3"
                     target="_blank"
@@ -143,8 +143,8 @@ class PerformanceContainer extends React.Component {
                   탐구.
                 </span>
               </div>
-              <div class="about1__column">
-                <div class="img__wrapper">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <a
                     href="https://brunch.co.kr/@tumeo201/2"
                     target="_blank"
@@ -161,8 +161,8 @@ class PerformanceContainer extends React.Component {
                   탐구.
                 </span>
               </div>
-              <div class="about1__column">
-                <div class="img__wrapper">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <a
                     href="https://brunch.co.kr/@tumeo201/4"
                     target="_blank"
@@ -177,8 +177,8 @@ class PerformanceContainer extends React.Component {
                   결론을 동시대의 작품들과 연관지어 독해.
                 </span>
               </div>
-              <div class="about1__column">
-                <div class="img__wrapper">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <a
                     href="https://brunch.co.kr/@tumeo201/1"
                     target="_blank"

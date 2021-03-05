@@ -52,10 +52,10 @@ class VideoContainer extends React.Component {
               <h1>
                 My Video <br /> Works
               </h1>
-              <div class="header__photo"></div>
+              <div className="header__photo"></div>
             </div>
           </header>
-          <section class="about">
+          <section className="about">
             <h2>The Graduation Project</h2>
             <p align="middle">
               <iframe
@@ -66,9 +66,9 @@ class VideoContainer extends React.Component {
                 title="video"
               ></iframe>
             </p>
-            <div class="about__columns">
-              <div class="about__column">
-                <div class="img__wrapper">
+            <div className="about__columns">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     src="https://i.imgur.com/cjGIKnF.png"
                     alt="9kb2cBA8_Mo"
@@ -85,8 +85,8 @@ class VideoContainer extends React.Component {
                   연출하는 것을 목표로 제작된 작품.
                 </span>
               </div>
-              <div class="about__column">
-                <div class="img__wrapper">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     src="https://i.imgur.com/3KzVMSP.png"
                     alt="BZ2G6cJ4dXI"
@@ -104,8 +104,8 @@ class VideoContainer extends React.Component {
                   영상의 단 부분만을 보여준다.
                 </span>
               </div>
-              <div class="about__column">
-                <div class="img__wrapper">
+              <div className="about__column">
+                <div className="img__wrapper">
                   <img
                     src="https://i.imgur.com/zJwFoB9.png"
                     alt="YaXnJIp85nY"
@@ -125,7 +125,7 @@ class VideoContainer extends React.Component {
             </div>
           </section>
 
-          <section class="about1">
+          <section className="about1">
             <h2>The Final Projects: documentary</h2>
             <p align="middle">
               <iframe
@@ -136,9 +136,9 @@ class VideoContainer extends React.Component {
                 title="video"
               ></iframe>
             </p>
-            <div class="about1__columns">
-              <div class="about1__column">
-                <div class="img__wrapper">
+            <div className="about1__columns">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <img
                     alt="bgF2eROsQU4"
                     src="https://i.imgur.com/gwBqgHt.png"
@@ -156,8 +156,8 @@ class VideoContainer extends React.Component {
                   일상을 10분 분량으로 담은 다큐멘터리.
                 </span>
               </div>
-              <div class="about1__column">
-                <div class="img__wrapper">
+              <div className="about1__column">
+                <div className="img__wrapper">
                   <img
                     alt="7z5SyjNxSXE"
                     src="https://i.imgur.com/z7znVAp.png"
@@ -178,7 +178,7 @@ class VideoContainer extends React.Component {
             </div>
           </section>
 
-          <section class="about2">
+          <section className="about2">
             <h2>The Final Projects: Non-documentary</h2>
             <p align="middle">
               <iframe
@@ -189,9 +189,9 @@ class VideoContainer extends React.Component {
                 title="video"
               ></iframe>
             </p>
-            <div class="about2__columns">
-              <div class="about2__column">
-                <div class="img__wrapper">
+            <div className="about2__columns">
+              <div className="about2__column">
+                <div className="img__wrapper">
                   <img
                     alt="Vq_weY11w10"
                     src="https://i.imgur.com/S18tgXb.png"
@@ -207,8 +207,8 @@ class VideoContainer extends React.Component {
                   거식증을 앓고 있는 주인공의 내면 심리를 극적인 모습으로 연출.
                 </span>
               </div>
-              <div class="about2__column">
-                <div class="img__wrapper">
+              <div className="about2__column">
+                <div className="img__wrapper">
                   <img
                     alt="YANWmd9SrPQ"
                     src="https://i.imgur.com/A1yZJy0.png"
@@ -225,8 +225,8 @@ class VideoContainer extends React.Component {
                   주인공의 압박감을 몽타주 기법을 통해 드러낸다.
                 </span>
               </div>
-              <div class="about2__column">
-                <div class="img__wrapper">
+              <div className="about2__column">
+                <div className="img__wrapper">
                   <img
                     alt="p2Iwo17wbWs"
                     src="https://i.imgur.com/9gScBmq.png"
@@ -242,8 +242,8 @@ class VideoContainer extends React.Component {
                   점프컷과 시 인용, 카메라 응시 등의 특성들을 반영하여 제작.
                 </span>
               </div>
-              <div class="about2__column">
-                <div class="img__wrapper">
+              <div className="about2__column">
+                <div className="img__wrapper">
                   <img
                     alt="KrRWoGyWYDA"
                     src="https://i.imgur.com/fwsIHDy.png"
@@ -259,8 +259,8 @@ class VideoContainer extends React.Component {
                   1960대 혼분식 장려운동을 주제로 단편영화 제작.
                 </span>
               </div>
-              <div class="about2__column">
-                <div class="img__wrapper">
+              <div className="about2__column">
+                <div className="img__wrapper">
                   <img
                     alt="S3jNhXYbW6c"
                     src="https://i.imgur.com/SsZY3RH.png"
@@ -277,8 +277,8 @@ class VideoContainer extends React.Component {
               </div>
             </div>
           </section>
-          <section class="contact">
-            <Link to="/performance" class="btn">
+          <section className="contact">
+            <Link to="/performance" className="btn">
               Next Page
             </Link>
           </section>
