@@ -51,5 +51,6 @@
     "browsers": [
       "last 2 versions"
     ]
-  }
+  },
+  "homepage": "https://9rganizedchaos.github.io/my-app/"
 }
