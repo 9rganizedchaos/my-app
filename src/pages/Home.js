@@ -1,3 +1,4 @@
+import "../dist/css/Home.css";
 import React from "react";
 import { Link } from "react-router-dom";
 

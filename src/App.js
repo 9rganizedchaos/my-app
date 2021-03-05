@@ -1,4 +1,4 @@
-import "./dist/css/styles.css";
+// import "./dist/css/styles.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import VideoContainer from "./pages/VideoContainer";
